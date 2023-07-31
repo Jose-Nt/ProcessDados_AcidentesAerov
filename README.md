@@ -1,2 +1,2 @@
-# ProcessamentoDados_AcidentesAerov
-Parte do processo de ETL de dados relacionados a acidentes Aeroviários.  Os notebooks disponibilizados neste repositório tem como função o tratamento das 3 bases de dados fornecidas e posterior lançamento para o banco de dados PostgresSQL, a fim da sua utilização para análises específicas.
+# Processamento e carga de dados
+Os notebooks disponibilizados neste repositório são responsáveis por parte do processo de ETL (Extract, transform, load) de 3 bases de dados relacionadas a acidentes aeroviários em territtório brasileiro, mais especificamente, os mesmos compõem as etapas de tratamento e carga dos dados. Foram necessárias alterações nos arquivos .csv originais antes do upload para o banco de dados PostgreSQL a fim de possibilitar sua utilização para futuras análises de dados, alterações essas que foram feitas através dos códigos disponíveis na pasta "Notebooks_de_tratamento_e_upload".
